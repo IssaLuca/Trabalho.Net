@@ -9,9 +9,10 @@ namespace TrabalhoLUCAISSA.Models
 {
     public class TrabalhoLUCAISSAContext : DbContext
     {
-        public TrabalhoLUCAISSAContext (DbContextOptions<TrabalhoLUCAISSAContext> options)
-            : base(options)
+        public static DbContextOptionsBuilder optionsBuilder = new DbContextOptionsBuilder<TrabalhoLUCAISSAContext>();
+        public TrabalhoLUCAISSAContext() : base(optionsBuilder.UseSqlServer("Server=(localdb)\\mssqllocaldb;Database=CompeticaoDB;Trusted_Connection=True;").Options)
         {
+
         }
 
         public DbSet<TrabalhoLUCAISSA.Models.Jogador> Jogador { get; set; }

@@ -1,26 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aluno\\source\\repos\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA.csproj": {}
+    "C:\\Users\\issal\\source\\repos\\Trablho.Net\\Trabalho.Net\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aluno\\source\\repos\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA.csproj": {
+    "C:\\Users\\issal\\source\\repos\\Trablho.Net\\Trabalho.Net\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aluno\\source\\repos\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA.csproj",
+        "projectUniqueName": "C:\\Users\\issal\\source\\repos\\Trablho.Net\\Trabalho.Net\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA.csproj",
         "projectName": "TrabalhoLUCAISSA",
-        "projectPath": "C:\\Users\\aluno\\source\\repos\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA.csproj",
-        "packagesPath": "C:\\Users\\aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aluno\\source\\repos\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA\\obj\\",
+        "projectPath": "C:\\Users\\issal\\source\\repos\\Trablho.Net\\Trabalho.Net\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA.csproj",
+        "packagesPath": "C:\\Users\\issal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\issal\\source\\repos\\Trablho.Net\\Trabalho.Net\\TrabalhoLUCAISSA\\TrabalhoLUCAISSA\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\issal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.1"

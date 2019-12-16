@@ -50,6 +50,18 @@ namespace TrabalhoLUCAISSA.Controllers
             ViewData["JogadorID"] = new SelectList(_context.Jogador, "JogadorID", "JogadorID");
             return View();
         }
+        public IActionResult Melhores()
+        {
+            TrabalhoLUCAISSAContext db = new TrabalhoLUCAISSAContext();
+            List<Placar> placares = db.Placar.OrderByDescending(p => p.Pontuacao).ToList();
+            List<Placar> melhores = new List<Placar>();
+
+            for (int i = 0; (i < placares.Count && i < 10); i++)
+            {
+                melhores.Add(placares[i]);
+            }
+            return View(melhores);
+        }
 
         // POST: Placars/Create
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
